@@ -1,0 +1,6 @@
+{
+  "compilerOptions": {
+    "types": ["hexo/dist/types"]
+  },
+  "include": ["index.js"]
+}

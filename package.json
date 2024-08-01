@@ -1,0 +1,27 @@
+{
+  "name": "hexo-robots",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "hexo",
+    "git"
+  ],
+  "author": {
+    "name": "par9uet",
+    "email": "1607611087@qq.com"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.2"
+  },
+  "peerDependencies": {
+    "hexo": "^7"
+  }
+}
