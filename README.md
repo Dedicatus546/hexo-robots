@@ -24,6 +24,8 @@ robots:
 ```
 
 if you have multi user_agent config you can use the following way:
+
+```yml
 robots:
   user_agent: "*"
   allow:
