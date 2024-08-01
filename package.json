@@ -1,11 +1,8 @@
 {
   "name": "hexo-robots",
   "version": "1.0.0",
-  "description": "",
+  "description": "a hexo plugin that help you create robots.txt file when you build the site.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "license": "MIT",
   "files": [
     "index.js"
