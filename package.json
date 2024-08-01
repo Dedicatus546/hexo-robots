@@ -1,6 +1,6 @@
 {
   "name": "hexo-robots",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a hexo plugin that help you create robots.txt file when you build the site.",
   "main": "index.js",
   "license": "MIT",
@@ -17,7 +17,7 @@
     "url": "https://github.com/Dedicatus546"
   },
   "repository": {
-    "url": "https://github.com/Dedicatus546/hexo-robots" 
+    "url": "https://github.com/Dedicatus546/hexo-robots"
   },
   "devDependencies": {
     "@types/node": "^22.0.2"
