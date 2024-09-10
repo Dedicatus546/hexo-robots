@@ -2,6 +2,12 @@
 
 a hexo plugin that help you create robots.txt file when you build the site.
 
+## install
+
+```bash
+pnpm install hexo-robots
+```
+
 ## config
 
 the following is the default config when you install this plugin.
