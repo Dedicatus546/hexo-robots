@@ -1,6 +1,6 @@
 {
   "name": "hexo-robots",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a hexo plugin that help you create robots.txt file when you build the site.",
   "main": "index.js",
   "license": "MIT",
