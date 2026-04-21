@@ -9,11 +9,11 @@
   ],
   "keywords": [
     "hexo",
-    "git"
+    "rebots.txt"
   ],
   "author": {
     "name": "Par9uet",
-    "email": "1607611087@qq.com",
+    "email": "par9uet@qq.com",
     "url": "https://github.com/Dedicatus546"
   },
   "repository": {
@@ -23,9 +23,9 @@
     "@types/node": "^22.0.2"
   },
   "peerDependencies": {
-    "hexo": "^7"
+    "hexo": "^7.0.0 || ^8.0.0"
   },
   "engines": {
-    "node": ">16"
+    "node": ">=16"
   }
 }
