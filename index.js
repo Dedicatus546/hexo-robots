@@ -20,11 +20,11 @@ const output = (robots) => {
   return [
     `User-agent: ${user_agent}`,
     "",
-    ...allow.map((item) => `Allow: ${item}`),
+    ...allow?.map((item) => `Allow: ${item}`) ?? "",
     "",
-    ...disallow.map((item) => `Disallow: ${item}`),
+    ...disallow?.map((item) => `Disallow: ${item}`) ?? "",
     "",
-    ...sitemaps.map((item) => `Sitemap: ${item}`),
+    ...sitemaps?.map((item) => `Sitemap: ${item}`) ?? "",
   ].join(os.EOL);
 };
 
