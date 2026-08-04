@@ -1,7 +1,7 @@
 {
-  "name": "hexo-robots",
-  "version": "1.0.2",
-  "description": "a hexo plugin that help you create robots.txt file when you build the site.",
+  "name": "@kottofey/hexo-robots",
+  "version": "1.0.0",
+  "description": "a hexo plugin that help you create robots.txt file when you build the site. Forked from Par9uet, now supports empty Allow Disallow and Sourcemaps",
   "main": "index.js",
   "license": "MIT",
   "files": [
@@ -12,12 +12,12 @@
     "rebots.txt"
   ],
   "author": {
-    "name": "Par9uet",
-    "email": "par9uet@qq.com",
-    "url": "https://github.com/Dedicatus546"
+    "name": "kottofey",
+    "email": "kottofey@yande.xru",
+    "url": "https://github.com/kottofey"
   },
   "repository": {
-    "url": "https://github.com/Dedicatus546/hexo-robots"
+    "url": "https://github.com/kottofey/hexo-robots"
   },
   "devDependencies": {
     "@types/node": "^22.0.2"
