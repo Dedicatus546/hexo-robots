@@ -2,15 +2,11 @@
   "name": "hexo-robots",
   "version": "1.0.2",
   "description": "a hexo plugin that help you create robots.txt file when you build the site.",
-  "main": "index.js",
-  "license": "MIT",
-  "files": [
-    "index.js"
-  ],
   "keywords": [
     "hexo",
     "rebots.txt"
   ],
+  "license": "MIT",
   "author": {
     "name": "Par9uet",
     "email": "par9uet@qq.com",
@@ -19,8 +15,17 @@
   "repository": {
     "url": "https://github.com/Dedicatus546/hexo-robots"
   },
+  "files": [
+    "./dist",
+    "./src"
+  ],
+  "type": "module",
+  "main": "./dist/index.js",
   "devDependencies": {
-    "@types/node": "^22.0.2"
+    "@types/node": "^26.1.2",
+    "oxfmt": "^0.62.0",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.10"
   },
   "peerDependencies": {
     "hexo": "^7.0.0 || ^8.0.0"
