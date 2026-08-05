@@ -26,7 +26,7 @@ you can setting `user_agent`, `allow`, `disallow`, `sitemaps`.
 ```yml
 // hexo _config.yml
 robots:
-  user_agent: "*"
+  user_agent: *
   allow:
     - /tags/
   disallow:
@@ -51,7 +51,7 @@ if you have multi user_agent config you can use the following way:
 robots:
   sitemaps:
     - https://prohibitorum.top/sitemap.xml
-  user_agent: "*"
+  user_agent: *
   allow:
     - /tags/
   disallow:
