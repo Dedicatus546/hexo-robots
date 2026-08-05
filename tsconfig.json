@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "target": "es2015",
+    "lib": ["ESNext"],
+    "module": "commonjs",
+    "types": ["node"],
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "sourceMap": true,
+
+    "moduleResolution": "bundler",
+    "noEmit": false,
+
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "erasableSyntaxOnly": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true
+  },
+  "files": ["src/index.ts", "src/core.ts", "./node_modules/hexo/dist/hexo/index.d.ts"]
+}
