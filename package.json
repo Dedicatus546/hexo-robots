@@ -20,7 +20,7 @@
     "./src"
   ],
   "type": "module",
-  "main": "./dist/index.js",
+  "main": "./dist/src/index.js",
   "devDependencies": {
     "@types/node": "^26.1.2",
     "oxfmt": "^0.62.0",
