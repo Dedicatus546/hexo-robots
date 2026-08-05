@@ -187,14 +187,14 @@ Disallow: /css/`);
 //
 // robots:
 //   more:
-//     - user_agent: "Googlebot",
+//     - user_agent: Googlebot
 //       allow:
 //         - /tmp1/
 //         - /tmp2/
 //       disallow:
 //         - /tmp3/
 //         - /tmp4/
-//     - user_agent: "Bingbot",
+//     - user_agent: Bingbot
 //       allow:
 //         - /tmp5/
 //         - /tmp6/
@@ -237,14 +237,14 @@ Disallow: /tmp8/`);
 //     - https://prohibitorum.top/sitemap.xml
 //     - https://prohibitorum.top/sitemap2.xml
 //   more:
-//     - user_agent: "Googlebot",
+//     - user_agent: Googlebot
 //       allow:
 //         - /tmp1/
 //         - /tmp2/
 //       disallow:
 //         - /tmp3/
 //         - /tmp4/
-//     - user_agent: "Bingbot",
+//     - user_agent: Bingbot
 //       allow:
 //         - /tmp5/
 //         - /tmp6/
