@@ -1,3 +1,7 @@
+# v1.0.4
+
+- fix import
+
 # v1.0.3
 
 - remove all default config, now if you write a empty `robots:` , it will generate a empty robots.txt.

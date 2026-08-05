@@ -1,6 +1,6 @@
 {
   "name": "hexo-robots",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "a hexo plugin that help you create robots.txt file when you build the site.",
   "keywords": [
     "hexo",
@@ -19,7 +19,6 @@
     "./dist",
     "./src"
   ],
-  "type": "module",
   "main": "./dist/src/index.js",
   "devDependencies": {
     "@types/node": "^26.1.2",
